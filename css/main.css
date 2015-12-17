@@ -4,9 +4,37 @@ body,
 .carousel-inner,
 .item {
   height: 100%;
-  background-color: #000000;
 }
 
 h2 {
 	color: #FFFFFF;
+}
+
+#firstSlide {
+	background: url('../images/slider-1.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#secondSlide {
+	background: url('../images/slider-2.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#thirdSlide {
+	background: url('../images/slider-3.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
 }
