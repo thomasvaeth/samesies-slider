@@ -1,13 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
 html,
 body,
 #carousel,
 .carousel-inner,
 .item {
   height: 100%;
-}
-
-h2 {
-	color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
 }
 
 #firstSlide {
@@ -34,7 +34,36 @@ h2 {
   background-size: cover;
 }
 
-.carousel-control.left,
-.carousel-control.right {
-	background-image: none;
+.carousel-indicators li {
+	width: 14px;
+	height: 14px;
+	margin: 3px;
+}
+
+.carousel-indicators .active {
+	width: 20px;
+	height: 20px;
+}
+
+.transition .carousel-inner .item {
+  transition-property: opacity;
+}
+
+.transition .carousel-inner .item,
+.transition .carousel-inner .active.left,
+.transition .carousel-inner .active.right {
+  opacity: 0;
+}
+
+.transition .carousel-inner .active,
+.transition .carousel-inner .next.left,
+.transition .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.transition .carousel-inner .next,
+.transition .carousel-inner .prev,
+.transition .carousel-inner .active.left,
+.transition .carousel-inner .active.right {
+  transform: translateZ(0);
 }
