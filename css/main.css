@@ -1,0 +1,12 @@
+html,
+body,
+#carousel,
+.carousel-inner,
+.item {
+  height: 100%;
+  background-color: #000000;
+}
+
+h2 {
+	color: #FFFFFF;
+}
