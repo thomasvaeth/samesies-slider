@@ -1,36 +1,24 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300);
-
 html,
 body,
 #carousel,
 .carousel-inner,
 .item {
   height: 100%;
-  font-family: 'Roboto', sans-serif;
   color: #FFFFFF;
 }
 
 #firstSlide {
 	background: url('../images/slider-1.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 #secondSlide {
 	background: url('../images/slider-2.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
 #thirdSlide {
 	background: url('../images/slider-3.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
