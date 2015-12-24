@@ -18,3 +18,6 @@ I needed to make templates to add to a store for my final project at General Ass
 * Change title and favicon
 	- The title is in index.html on line 8. 
 	- Favicon is the picture that shows up on the tabs next to the title and is in index.html on line 9. There are favicon generator websites where you can drag in a regular picture and it turns it into a favicon. Just save it in images folder and direct it there.
+
+### Screenshot
+![Template](https://github.com/thomasvaeth/samesies-slider/blob/master/screenshots/screenshot-1.png "Desktop screenshot")
